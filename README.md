@@ -29,7 +29,7 @@ and to summarize how many customers fall into each category and their average mo
 - Sorted the output in a logical order
 
 #### Challenges
-It took me to decide which field i should use to group the year and month from since the fields doesnt have detailed description. I analyzed each datetime datatype on the table and chose the most logical one
+Determining which field to use for grouping by year and month required careful consideration, as the field descriptions lacked sufficient detail. I reviewed all available datetime fields in the table and selected the one that was most logically aligned with the context of the analysis.
 
 ---
 ### 3. Account Inactivity Alert
@@ -45,7 +45,7 @@ It took me to decide which field i should use to group the year and month from s
 - Sorted results so the longest inactive accounts come first.
 
 #### Challenges
-It was difficult to solve this question because there was not savings and investment field to work with. I had to surf the internet to find the best way to classify the description field to just savings and investment.
+It was challenging to solve this question due to the absence of necessary fields distinguishing savings and investment accounts. To address this, I researched best practices online and devised a method to classify the 'description' field into either 'Savings' or 'Investment' based on keyword patterns.
 
 ---
 ### 4. Customer Lifetime Value (CLV) Estimation
